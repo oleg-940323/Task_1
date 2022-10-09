@@ -54,7 +54,10 @@ namespace Task_1
                     Console.ReadLine();
                 }
                 else
+                {
                     Console.WriteLine($"Введено неверное значение!");
+                    Console.ReadLine();
+                }    
             }
 
         }
