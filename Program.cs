@@ -50,10 +50,13 @@ namespace Task_1
                     animals[result].Move();
                     animals[result].Sound();
                     animals[result].Children();
+
+                    Console.ReadLine();
                 }
+                else
+                    Console.WriteLine($"Введено неверное значение!");
             }
 
-            Console.ReadLine();
         }
     }
 }
